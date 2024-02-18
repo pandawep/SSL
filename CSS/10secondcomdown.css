@@ -1,0 +1,41 @@
+   
+  #countdown {
+  font-size: 40px;
+  color: rgb(185, 94, 197);
+  background-color: rgba(128, 128, 128, 0.795)128, 128, 128);
+}
+
+/* Style for the anchor tag */
+a {
+  text-decoration: none; /* Remove underline */
+}
+
+/* Style for the button */
+button {
+  text-align: center;
+  height: auto;
+  width: auto;
+  display: inline-block;
+  padding: auto;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: rgb(0, 65, 109); /* Button background color */
+  color: #ffffff; /* Button text color */
+  border: 2px solid #66acdb; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+/* Add hover effect */
+button:hover {
+  background-color: #0099ff; /* Darker background color on hover */
+  color: #ffffff; /* Text color on hover */
+}
+
+/* Hide the button container initially */
+#buttonContainer {
+  display: none;
+}
