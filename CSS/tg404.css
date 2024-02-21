@@ -4,31 +4,47 @@
 =======================*/
 
 
-.page_404{ padding:40px 0; background:#fff; font-family: 'Arvo', serif;
+.page_404{
+     padding:40px 0; 
+     background:#ffffff; 
+     font-family: 'Arvo', serif;
 }
-
-.page_404  img{ width:100%;}
-
+.page_404  img{ 
+    width:100%;
+}
 .four_zero_four_bg{
- 
- background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
     height: 400px;
     background-position: center;
  }
- 
- 
- .four_zero_four_bg h1{
+.four_zero_four_bg h1{
  font-size:80px;
  }
- 
-  .four_zero_four_bg h3{
-			 font-size:80px;
-			 }
-			 
-			 .link_404{			 
-	color: #fff!important;
-    padding: 10px 20px;
-    background: #39ac31;
-    margin: 20px 0;
-    display: inline-block;}
-	.contant_box_404{ margin-top:-50px;}
+.four_zero_four_bg h3{
+	font-size:80px;
+}
+p{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-style: initial;
+   font-size: 30px;
+   text-align: center;
+   color: rgb(0, 0, 0);
+   text-shadow: #000000;
+}
+.hz{
+    color: rgb(255, 31, 31);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 45px;
+}
+button{
+    color: rgb(26, 24, 24);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(145, 255, 0);
+    border: none;
+    animation-name: initial;
+    width: 100%;
+    height: 60px;
+    font-size: 50px;
+}
