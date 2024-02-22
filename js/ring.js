@@ -13,5 +13,5 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Set interval to continuously click the button every 3 seconds (3000 milliseconds)
-    setInterval(clickButton, 3000);
+    setInterval(clickButton, 1);
 });
