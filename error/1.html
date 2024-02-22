@@ -1,1 +1,28 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>error</title>
+</head>
+<body>
+    <h2>Tumko 2 goldflack le ke aana hai?</h2>
+    <button onclick="sendMessage('yes')">Yes</button>
+    <button onclick="sendMessage('no')">No</button>
+
+    <script>
+        function sendMessage(choice) {
+            if (choice === 'yes') {
+                // If user selects 'Yes', open WhatsApp with pre-filled message
+                var message = 'Yes';
+                var phoneNumber = '+917909046338'; // WhatsApp number
+                var url = 'https://wa.me/' + phoneNumber + '?text=' + encodeURIComponent(message);
+                window.open(url, '_blank');
+            } else {
+                alert('Okay, make sure to bring them later!');
+            }
+        }
+    </script>
+</body>
+</html>
