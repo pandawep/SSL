@@ -1,15 +1,64 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>error</title>
+    <title>Goldflack Question</title>
+    <!-- Open Graph meta tags -->
+    <meta property="og:title" content="Goldflack Question">
+    <meta property="og:description" content="Tumko 2 goldflack le ke aana hai?">
+    <meta property="og:image" content="https://i.ytimg.com/vi/a9ctb9RLCm4/maxresdefault.jpg">
+    <meta property="og:image:secure_url" content="https://i.ytimg.com/vi/a9ctb9RLCm4/maxresdefault.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            margin: 0 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <h2>Tumko 2 goldflack le ke aana hai?</h2>
-    <button onclick="sendMessage('yes')">Yes</button>
-    <button onclick="sendMessage('no')">No</button>
+    <div class="container">
+        <h2>Tumko 2 goldflack le ke aana hai?</h2>
+        <button onclick="sendMessage('yes')">Yes</button>
+        <button onclick="sendMessage('no')">No</button>
+    </div>
 
     <script>
         function sendMessage(choice) {
