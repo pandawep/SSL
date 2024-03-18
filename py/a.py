@@ -12,7 +12,7 @@ env_vars = {
     'ADMIN': '6141937812',
     'API_HASH': 'c149386dcd58a40fa9fe60e632e161d4',
     'API_ID': '22287041',
-    'BOT_TOKEN': '7157272669:AAGvVYKEkmSS0UbFOUZlAN3m8gOfqKAbB9U',
+    'BOT_TOKEN': '7098458912:AAHJoSyYNL69eniZG4PFH2ZDU1iiPzbsVs8',
     'DB_NAME': 'Cluster0',
     'DB_URL': 'mongodb+srv://bharathkalladi38:lXiNq3bhhMtZATbU@cluster0.xjd7tbt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
     'FILE_STORE_CHANNEL': '-1001869105126',
